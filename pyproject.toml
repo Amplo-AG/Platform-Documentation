@@ -3,6 +3,6 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "lumache"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
+name = "Amplo - Smart Maintenance Platform"
+authors = [{name = "Amplo GmbH", email = "info@amplo.ch"}]
 dynamic = ["version", "description"]
