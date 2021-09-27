@@ -29,7 +29,7 @@ you have a powerful, scalable and robust MLOps framework at your disposal.
    :caption: Getting Started
 
    Getting_Started/Main_Concepts.rst
-   Getting_Started/ML_Services.rst
+   Getting_Started/Services.rst
    Getting_Started/Setup.rst
 
 .. toctree::
@@ -37,7 +37,9 @@ you have a powerful, scalable and robust MLOps framework at your disposal.
    :caption: Usage
 
    Usage/Data.rst
+   Usage/Processing.rst
    Usage/Training.rst
    Usage/Labelling.rst
+   Usage/Permissions.rst
    Usage/APIs.rst
 
