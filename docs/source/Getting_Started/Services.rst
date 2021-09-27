@@ -1,5 +1,3 @@
-.. _ML Services:
-
 Machine Learning Services
 =========================
 
