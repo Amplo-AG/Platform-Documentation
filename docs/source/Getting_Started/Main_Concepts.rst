@@ -50,15 +50,15 @@ offers.
     flags data that falls outside of normal operating points. When anomalies are detected, we use Automated Diagnostics
     models to try and identify the anomaly.
 
-* **Predictive Maintenance**
-    To avoid machine downtime and to give Service Engineers maximum time to organise maintenance, Predictive Maintenance
-    constantly looks for failure patterns of specific incidents in your machine data. Often, these can be found weeks
-    before the machine becomes critical.
-
 * **Condition Monitoring**
     Service Engineers often have expert knowledge of their machines. For the cases which are expressible with
     if/else rules, Condition Monitoring is the go to strategy. Here we don't use machine learning, but rely fully on
     the Service Engineers' knowledge. We also use these rules to make the labelling process easier.
+
+* **Predictive Maintenance**
+    To avoid machine downtime and to give Service Engineers maximum time to organise maintenance, Predictive Maintenance
+    constantly looks for failure patterns of specific incidents in your machine data. Often, these can be found weeks
+    before the machine becomes critical.
 
 
 
