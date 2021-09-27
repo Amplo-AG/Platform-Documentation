@@ -25,7 +25,7 @@ you have a powerful, scalable and robust MLOps framework at your disposal.
    This project is under active development.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Getting Started
 
    Getting_Started/Main_Concepts.rst
@@ -33,7 +33,7 @@ you have a powerful, scalable and robust MLOps framework at your disposal.
    Getting_Started/Setup.rst
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Usage
 
    Usage/Data.rst

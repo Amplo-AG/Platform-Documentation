@@ -5,7 +5,7 @@ main concepts and terminology you should understand.
 
 Machine Learning
 ----------------
-The different :doc:`Machine Learning Services` all rely on the same principles. Conceptually they rely on the following aspects:
+The different :doc:`Services` all rely on the same principles. Conceptually they rely on the following aspects:
 
 * **Model**
     A Machine Learning Model is a computer model that (once trained) mimics the relation between certain inputs and
@@ -17,7 +17,7 @@ The different :doc:`Machine Learning Services` all rely on the same principles. 
     Machine Learning models are able to predict specific incidents by learning from examples. Therefore, to train a
     model which is able to predict whether a specific incident is going to happen two weeks from now, we need
     approximately 20-30 examples to learn from. These examples may contain sensor measurements such as temperatures,
-    voltages and pressures, but also machine states, flags, errors or other event logs. In :doc:`Machine Learning Services`
+    voltages and pressures, but also machine states, flags, errors or other event logs. In :doc:`Services`
     we explain the requirements for these examples more in-depth. These examples together is what we call training data.
 
 * **Labelling**
@@ -35,8 +35,8 @@ The different :doc:`Machine Learning Services` all rely on the same principles. 
 
 Services
 --------
-See :doc:`Machine Learning Services` for a more detailed overview of the data & setup requirements and use cases.
-This section is more mentioned to give an introduction into the various predictive maintenance services the platform
+See :doc:`Services` for a more detailed overview of the data & setup requirements and use cases.
+This section provides a concise introduction into the various predictive maintenance services the platform
 offers.
 
 * **Automated Diagnostics**

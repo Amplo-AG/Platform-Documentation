@@ -17,6 +17,7 @@ Adding Files
 ------------
 blabla
 
+.. _ref-custom-flags:
 Custom Flags
 ------------
 blabla

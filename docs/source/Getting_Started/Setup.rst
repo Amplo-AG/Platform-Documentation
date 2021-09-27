@@ -12,11 +12,13 @@ blabla
 Data Integration
 ----------------
 
-**Event Driven**
+Event Driven
+^^^^^^^^^^^^
 
 blabla
 
-**Data Streams**
+Data Streams
+^^^^^^^^^^^^
 
 bla bla
 
