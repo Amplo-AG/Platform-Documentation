@@ -176,7 +176,7 @@ to reach out.
     If you're ticket system provider is not listed, feel free to reach out as we're more than happy to add some to our list!
 
 Salesforce
-~~~~~~~~~~
+^^^^^^^^^^
 Salesforce understands very well that their users need customization. We have developed a custom Lightning Components.
 We have purposely have not developed an application on Salesforce's AppExchange as this is dedicated to the creation
 of intellectual property within Salesforce, whereas our intellectual property remains secure on our own servers.
@@ -185,7 +185,8 @@ of intellectual property within Salesforce, whereas our intellectual property re
 In order to pull data from your Salesforce org, we use connecte
 
 Freshdesk
-~~~~~~~~~
+^^^^^^^^^
+
 **1. Authenticate Freshdesk's API**
 Freshdesk uses an API Key for authentication. When setting up this integration on the platform, please copy the API Key.
 You can find the API Key by:
@@ -203,3 +204,4 @@ You are relatively free to integrate anything with these webhooks. The most comm
 - URL: https://portal.amplo.ch/api/diagnosis
 - Requires Authentication
 - Enter the `your API Key <https://portal.amplo.ch/settings?api_access>`_
+- Create the body according to our `API Documentation <https://portal.amplo.ch/api-docs>`_

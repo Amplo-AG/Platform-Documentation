@@ -14,7 +14,7 @@ Monitoring.
 With Amplo, you can develop state of the art machine learning without any code.
 Amplo connects directly to your data storages and ticket systems, for
 minimal setup (& labelling) effort and maximal integration. Using our in-house
-developed `Automated Machine Learning Pipeline <https://en.wikipedia.org/wiki/Automated_machine_learning/>`_,
+developed `Automated Machine Learning Pipeline <https://en.wikipedia.org/wiki/Automated_machine_learning>`_,
 you have a powerful, scalable and robust MLOps framework at your disposal.
 
 .. note::
