@@ -3,6 +3,8 @@ Machine Learning Services
 
 This section describes in more detail the requirements for data, setup & integration.
 
+.. _ref-automated-diagnostics:
+
 Automated Diagnostics
 ---------------------
 Automated Diagnostics is a service dedicated to reduce Time To Diagnose & Time To Resolve. Instead of hours of data
@@ -57,6 +59,7 @@ some customization you can visually show this diagnosis in your ticket system. F
     this is possible. If you are considering ticket systems, Freshdesk is a modern ticket system that allows all
     required functionality.
 
+.. _ref-anomaly-detection:
 
 Anomaly Detection
 -----------------
@@ -79,6 +82,7 @@ machines, which we call Data Streams (see :ref:`ref-data-integration`). The freq
 is dependent on your use case. The trade-off here is that with a higher frequency, anomalies are spotted quicker, but it
 also becomes more costly to process the additional bandwidth.
 
+.. _ref-condition-monitoring:
 
 Condition Monitoring
 --------------------
@@ -101,6 +105,7 @@ You can entire the thresholds and statements yourself, which may depend on the m
 
 Additionally, similar to Anomaly Detection, Condition Monitoring requires connected Data Streams.
 
+.. _ref-predictive-maintenance:
 
 Predictive Maintenance
 ----------------------
