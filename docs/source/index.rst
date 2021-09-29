@@ -36,6 +36,7 @@ you have a powerful, scalable and robust MLOps framework at your disposal.
    :maxdepth: 2
    :caption: Usage
 
+   Usage/Workflow.rst
    Usage/Data.rst
    Usage/Processing.rst
    Usage/Training.rst

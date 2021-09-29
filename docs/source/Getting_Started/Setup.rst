@@ -42,6 +42,11 @@ connectors only send measurement data when a specific event is triggered, such a
 of a service ticket or a specific alarm. Data Streams is a continuous connection, where measurement
 data is send at a fixed interval (often once a second to once a minute).
 
+We have three data integrations:
+* :ref:`ref-cloud-storage`
+* :ref:`ref-event-driven`
+* :ref:`ref-data-streams`
+
 .. _ref-cloud-storage:
 
 Storage Connections
@@ -169,20 +174,25 @@ Integration. This allows Amplo to find historic tickets and organise your traini
 machines and automatically diagnose incoming issues that were missed by our continuous ML Services.
 Out of the box we support the following integrations, but note that we allow custom integration as well, so feel free
 to reach out.
-* Salesforce
-* Freshdesk
+* :ref:`ref-salesforce` ** Coming Soon **
+* :ref:`ref-freshdesk`
 
 .. note::
     If you're ticket system provider is not listed, feel free to reach out as we're more than happy to add some to our list!
 
+
+.. _ref-salesforce:
+
 Salesforce
 ^^^^^^^^^^
-Salesforce understands very well that their users need customization. We have developed a custom Lightning Components.
+Salesforce understands very well that their users need customization. We have developed a custom Lightning Component.
 We have purposely have not developed an application on Salesforce's AppExchange as this is dedicated to the creation
 of intellectual property within Salesforce, whereas our intellectual property remains secure on our own servers.
 
 **1. Authenticate Salesforce's OpenAPI**
-In order to pull data from your Salesforce org, we use connecte
+In order to pull data from your Salesforce org, we use `Connected Apps`. 
+
+.. _ref-freshdesk:
 
 Freshdesk
 ^^^^^^^^^
