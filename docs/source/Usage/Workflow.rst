@@ -2,15 +2,16 @@ Workflow
 ========
 
 Before we start using the platform, we want to explain the general workflow. 
-This consist of :
-* :doc:`Data`
-* :doc:`Labelling`
-* :doc:`Training`
-* :doc:`Models`
-* :doc:`Diagnostics`
-* **coming soon** Condition Monitoring
-* **coming soon** Anomaly Detection
-* **coming soon** Predictive Maintenance
+This consist of:
+
+- :doc:`Data`
+- :doc:`Labelling`
+- :doc:`Training`
+- :doc:`Models`
+- :ref:`ref-automated-diagnostics`
+- **coming soon** Condition Monitoring
+- **coming soon** Anomaly Detection
+- **coming soon** Predictive Maintenance
 
 Data is at the heart of machine learning, and therefore at the heart of this Smart Maintenance Platform. 
 Even when you made the necessary :ref:`ref-data-integration`, the :doc:`Data` keeps track of your training 
@@ -24,6 +25,7 @@ Once completed, you can see the results and all other information in the :doc:`M
 services on the platform and over APIs!
 
 Additionally to this workflow, there are some more advanced topics which you may want to use:
-* :doc:`Preprocessor.rst`
-* :doc:`Permissions.rst`
-* :doc:`APIs.rst`
+
+- :doc:`Preprocessor.rst`
+- :doc:`Permissions.rst`
+- :doc:`APIs.rst`

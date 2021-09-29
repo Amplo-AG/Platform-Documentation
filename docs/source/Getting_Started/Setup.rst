@@ -43,9 +43,10 @@ of a service ticket or a specific alarm. Data Streams is a continuous connection
 data is send at a fixed interval (often once a second to once a minute).
 
 We have three data integrations:
-* :ref:`ref-cloud-storage`
-* :ref:`ref-event-driven`
-* :ref:`ref-data-streams`
+
+- :ref:`ref-cloud-storage`
+- :ref:`ref-event-driven`
+- :ref:`ref-data-streams`
 
 .. _ref-cloud-storage:
 
@@ -53,9 +54,10 @@ Storage Connections
 ^^^^^^^^^^^^^^^^^^^
 With the purpose of creating the initial training data and getting a maximum amount of
 operational data for anomaly detection, we have off the shelf data connectors for:
-* :ref:`ref-google-storage`
-* :ref:`ref-amazon-storage`
-* :ref:`ref-azure-storage`
+
+- :ref:`ref-google-storage`
+- :ref:`ref-amazon-storage`
+- :ref:`ref-azure-storage`
 
 .. note::
     If your cloud vendor or storage service is not listed, we're more than happy to add a few names on our list!
@@ -134,9 +136,10 @@ use specify this.
 Secure Storage Connections
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 To ensure a safe and secure Storage Connection, make sure to follow RBAC's best practices:
-* Assign only permissions we need
-* Rotate Account Keys
-* Separate duties for account roles
+
+- Assign only permissions we need
+- Rotate Account Keys
+- Separate duties for account roles
 
 
 .. _ref-event-driven:
@@ -174,8 +177,8 @@ Integration. This allows Amplo to find historic tickets and organise your traini
 machines and automatically diagnose incoming issues that were missed by our continuous ML Services.
 Out of the box we support the following integrations, but note that we allow custom integration as well, so feel free
 to reach out.
-* :ref:`ref-salesforce` ** Coming Soon **
-* :ref:`ref-freshdesk`
+- :ref:`ref-salesforce` ** Coming Soon **
+- :ref:`ref-freshdesk`
 
 .. note::
     If you're ticket system provider is not listed, feel free to reach out as we're more than happy to add some to our list!
@@ -200,6 +203,7 @@ Freshdesk
 **1. Authenticate Freshdesk's API**
 Freshdesk uses an API Key for authentication. When setting up this integration on the platform, please copy the API Key.
 You can find the API Key by:
+
 1. Logging into your Support Portal
 2. Clicking on your profile picture
 3. Going to Profile Settings Page
@@ -209,6 +213,7 @@ You can find the API Key by:
 Currently, we only integrate with webhooks. This works through `Freshdesk Automations <https://support.freshdesk.com/support/solutions/articles/132589-using-webhooks-in-automation-rules-that-run-on-ticket-updates>`_.
 You are relatively free to integrate anything with these webhooks. The most common use case is to trigger the
 :ref:`ref-automated-diagnostics` service upon the creation of a ticket. To set this up, use the following settings:
+
 - Trigger Webhook
 - Request Type: Post
 - URL: https://portal.amplo.ch/api/diagnosis

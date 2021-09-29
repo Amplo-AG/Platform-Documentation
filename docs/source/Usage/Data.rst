@@ -1,8 +1,8 @@
-Data
-====
+Data Overview
+=============
 
 
-All your data logs are organised by :doc:`Services` and Incidents. 
+All your data logs are organised by :doc:`../Services` and Incidents. 
 
 .. image:: ../images/data_overview.PNG
   :width: 600
