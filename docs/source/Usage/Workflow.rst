@@ -14,8 +14,8 @@ This consist of :
 
 Data is at the heart of machine learning, and therefore at the heart of this Smart Maintenance Platform. 
 Even when you made the necessary :ref:`ref-data-integration`, the :doc:`Data` keeps track of your training 
-data. You can inspect your training data here and see all made changes. 
-In order to distinguish between incidents, data needs to be labelled. The :doc:`Labelling` helps you with this. 
+data. You can inspect your training data here, keep it organised by incident and see all made changes. 
+The moment of failure or failure degradation is noted with data labelling. The :doc:`Labelling` helps you with this. 
 It allows you to mark intervals of incident occurance, mark remaining useful lifetimes and the useful features. 
 It also closes provides a feedback loop so newly occuring incidents are used to enrich the training data. 
 With a labelled and organised training data set, you can start training models in the :doc:`Training`. 
