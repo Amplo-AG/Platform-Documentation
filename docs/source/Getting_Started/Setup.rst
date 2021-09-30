@@ -11,7 +11,7 @@ colleague to register enters the setup screen. Here he/she sets up the machines 
 
 Machines & Incidents
 --------------------
-Within the Smart Maintenance Platform, you have separated environments for each machine,
+Within the Smart Maintenance Platform, you have separated environments for each type of machine,
 with their own data connectors, processors, incidents and models.
 Every machine you add will have its own list of incidents. Note that these incidents will
 have their all have their own model, and therefore define what is being predicted.
