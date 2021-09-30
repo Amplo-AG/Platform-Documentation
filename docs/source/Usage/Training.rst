@@ -23,8 +23,7 @@ When to start a training
 ------------------------
 There's pretty much two reasons why you would start a training session:
 
-- When you're new to the platform, just uploaded a bunch of incident data or organised
-    data storages. 
+- When you're new to the platform, just uploaded a bunch of incident data or organised data storages. 
 - When the deployed model gets a bit outdated, or you have added/labelled ~5+ logs of incident data.
 
 

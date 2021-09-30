@@ -7,11 +7,6 @@ This consist of:
 - :doc:`Data`
 - :doc:`Labelling`
 - :doc:`Training`
-- :doc:`Models`
-- :ref:`ref-automated-diagnostics`
-- **coming soon** Condition Monitoring
-- **coming soon** Anomaly Detection
-- **coming soon** Predictive Maintenance
 
 Data is at the heart of machine learning, and therefore at the heart of this Smart Maintenance Platform. 
 Even when you made the necessary :ref:`ref-data-integration`, the :doc:`Data` keeps track of your training 
