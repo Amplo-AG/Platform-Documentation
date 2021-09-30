@@ -26,6 +26,6 @@ services on the platform and over APIs!
 
 Additionally to this workflow, there are some more advanced topics which you may want to use:
 
-- :doc:`Advanced/Preprocessor.rst`
-- :doc:`Advanced/Permissions.rst`
-- :doc:`Advanced/APIs.rst`
+- :doc:`../Advanced/Preprocessor.rst`
+- :doc:`../Advanced/Permissions.rst`
+- :doc:`../Advanced/APIs.rst`

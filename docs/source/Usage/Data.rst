@@ -4,7 +4,7 @@ Data Overview
 
 All your data logs are organised by :doc:`../Services` and Incidents. 
 
-.. image:: ../images/data_overview.PNG
+.. image:: ../../images/data_overview.PNG
   :width: 600
   :alt: Amplo
 

@@ -7,12 +7,12 @@ some log files require some further attention before you can start :doc:`Trainin
 - Long :ref:`ref-automated-diagnostics` logs (>5s)
 - :ref:`ref-predictive-maintenance` logs for degradation curves
 
-.. image:: ../images/labelling.PNG
+.. image:: ../../images/labelling.PNG
   :width: 600
   :alt: Amplo
 
 Labelling Automated Diagnostics Logs
----------------------------------------------
+------------------------------------
 When Automated Diagnostics logs are above 5 seconds, it's often helpfull to mark the interval where the failure 
 patterns are most obvious in the data. When you mark the failure, all unmarked data will be disregarded when 
 you train the corresponding model. 
