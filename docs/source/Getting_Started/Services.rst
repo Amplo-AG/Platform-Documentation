@@ -42,10 +42,9 @@ Diagnostics model for every incident with more than 30 occurrences.
 Manual Setup
 ^^^^^^^^^^^^
 
-If you don't have a structured data storage or ticket system, or simply want to try out the power of our AutoML, you can
-train and test our Automated Diagnostics service manually. This requires your service engineers to create a list
-of occurrences and the corresponding measurement data snapshots for every incident. Note that this can be a tiresome
-process.
+Even without structured data storage or ticket system you can do smarter maintenance!
+Collect a list of incidents & occurrences with the corresponding measurement data. 
+Upload it manually in the Data Overview and see the power of our AutoML! 
 
 Integration
 ^^^^^^^^^^^
