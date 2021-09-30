@@ -1,5 +1,5 @@
-Permissions
-===========
+Permission Management
+=====================
 
 blabla
 

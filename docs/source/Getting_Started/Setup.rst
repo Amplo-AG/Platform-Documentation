@@ -177,11 +177,38 @@ Integration. This allows Amplo to find historic tickets and organise your traini
 machines and automatically diagnose incoming issues that were missed by our continuous ML Services.
 Out of the box we support the following integrations, but note that we allow custom integration as well, so feel free
 to reach out.
-- :ref:`ref-salesforce` ** Coming Soon **
+
 - :ref:`ref-freshdesk`
+- :ref:`ref-salesforce` ** Coming Soon **
 
 .. note::
     If you're ticket system provider is not listed, feel free to reach out as we're more than happy to add some to our list!
+
+.. _ref-freshdesk:
+
+Freshdesk
+^^^^^^^^^
+
+**1. Authenticate Freshdesk's API**
+Freshdesk uses an API Key for authentication. When setting up this integration on the platform, please copy the API Key.
+You can find the API Key by:
+
+1. Logging into your Freshdesk Support Portal
+2. Clicking on your profile picture
+3. Going to Profile Settings Page
+4. The API Key is available below the change password section.
+
+**2. Integrate ML Services**
+You can directly integrate our ML Services with webhooks. This works through `Freshdesk Automations <https://support.freshdesk.com/support/solutions/articles/132589-using-webhooks-in-automation-rules-that-run-on-ticket-updates>`_.
+You are relatively free to integrate anything with these webhooks. The most common use case is to trigger the
+:ref:`ref-automated-diagnostics` service upon the creation of a ticket. To set this up, use the following settings:
+
+- Trigger Webhook
+- Request Type: Post
+- URL: https://portal.amplo.ch/api/diagnosis
+- Requires Authentication
+- Enter the `your API Key <https://portal.amplo.ch/settings?api_access>`_
+- Create the body according to our `API Documentation <https://portal.amplo.ch/api-docs>`_
 
 
 .. _ref-salesforce:
@@ -194,29 +221,3 @@ of intellectual property within Salesforce, whereas our intellectual property re
 
 **1. Authenticate Salesforce's OpenAPI**
 In order to pull data from your Salesforce org, we use `Connected Apps`. 
-
-.. _ref-freshdesk:
-
-Freshdesk
-^^^^^^^^^
-
-**1. Authenticate Freshdesk's API**
-Freshdesk uses an API Key for authentication. When setting up this integration on the platform, please copy the API Key.
-You can find the API Key by:
-
-1. Logging into your Support Portal
-2. Clicking on your profile picture
-3. Going to Profile Settings Page
-4. The API Key is available below the change password section.
-
-**2. Integrate ML Services**
-Currently, we only integrate with webhooks. This works through `Freshdesk Automations <https://support.freshdesk.com/support/solutions/articles/132589-using-webhooks-in-automation-rules-that-run-on-ticket-updates>`_.
-You are relatively free to integrate anything with these webhooks. The most common use case is to trigger the
-:ref:`ref-automated-diagnostics` service upon the creation of a ticket. To set this up, use the following settings:
-
-- Trigger Webhook
-- Request Type: Post
-- URL: https://portal.amplo.ch/api/diagnosis
-- Requires Authentication
-- Enter the `your API Key <https://portal.amplo.ch/settings?api_access>`_
-- Create the body according to our `API Documentation <https://portal.amplo.ch/api-docs>`_

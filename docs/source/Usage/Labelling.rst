@@ -11,7 +11,7 @@ some log files require some further attention before you can start :doc:`Trainin
   :width: 600
   :alt: Amplo
 
-Marking Automated Diagnostics Logs
+Labelling Automated Diagnostics Logs
 ---------------------------------------------
 When Automated Diagnostics logs are above 5 seconds, it's often helpfull to mark the interval where the failure 
 patterns are most obvious in the data. When you mark the failure, all unmarked data will be disregarded when 
@@ -23,6 +23,11 @@ You can open the label interface shown in the picture below from the :doc:`Data`
 - Double click on the graph to show the entire timeline. 
 - Hold shift and drag from left to right to mark a faulty interval. 
 - With the top left 
+
+Labelling Predictive Maintenance Logs
+-------------------------------------
+
+
 
 
 .. _ref-labeljobs:
