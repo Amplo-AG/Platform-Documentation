@@ -147,4 +147,3 @@ To support such encodings, copy the following code into the preprocessor:
 
         return {'df': df, 'flags': {}}
 
-            

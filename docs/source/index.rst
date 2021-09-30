@@ -41,6 +41,10 @@ you have a powerful, scalable and robust MLOps framework at your disposal.
    Usage/Processing.rst
    Usage/Training.rst
    Usage/Labelling.rst
-   Usage/Permissions.rst
-   Usage/APIs.rst
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Advanced
+   Advanced/Preprocessor.rst
+   Advanced/Permissions.rst
 
