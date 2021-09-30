@@ -7,7 +7,7 @@ some log files require some further attention before you can start :doc:`Trainin
 - Long :ref:`ref-automated-diagnostics` logs (>5s)
 - :ref:`ref-predictive-maintenance` logs for degradation curves
 
-.. image:: ../../images/labelling.PNG
+.. image:: ../../images/Labelling.png
   :width: 600
   :alt: Labelling.png
 
@@ -26,7 +26,7 @@ You can open the label interface shown in the picture below from the :doc:`Data`
 
 Always ensure to capture the incident interval where the incident is most obvious from the data!
 
-.. image:: ../../images/failure.PNG
+.. image:: ../../images/Failure.png
   :width: 600
   :alt: Failure.png
 
