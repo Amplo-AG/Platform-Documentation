@@ -84,6 +84,12 @@ also becomes more costly to process the additional bandwidth.
 
 .. _ref-condition-monitoring:
 
+Output
+^^^^^^
+Whenever Anomaly Detection detects an issue, all your Automated Diagnostics models are automatically run on the anomaly. 
+Hopefully, this will directly provide you with the resolution. If it's however a new type of incident and diagnostics
+don't detect an issue, the Anomaly will be left for Service Engineers to be labelled. 
+
 Condition Monitoring
 --------------------
 
